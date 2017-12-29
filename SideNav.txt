@@ -1,0 +1,24 @@
+<-- *Side nav for class *-->
+
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Class 1</a>
+  <a href="#">Class 2</a>
+  <a href="#">Class 3</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Classes</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+</body>
